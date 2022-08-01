@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familia {{familiar.apellido}}</title>
+<center><h1>Familia {{familiar.apellido}}</h1></center>
+<style>
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+    th, td {
+    background-color: #c3dacf;
+}
+</style>
+</head>
+<body>
+<table style="width:100%">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+        <th>Fecha de Nacimiento</th>
+    </tr>
+    <tr>
+        <td>{{familiar.nombre}}</td>
+        <td>{{familiar.apellido}}</td>
+        <td>{{familiar.edad}}</td>
+        <td>{{familiar.fechaDeNacimiento}}</td>
+    </tr>
+    <tr>
+        <td>{{familiar1.nombre}}</td>
+        <td>{{familiar1.apellido}}</td>
+        <td>{{familiar1.edad}}</td>
+        <td>{{familiar1.fechaDeNacimiento}}</td>
+    </tr>
+    <tr>
+        <td>{{familiar2.nombre}}</td>
+        <td>{{familiar2.apellido}}</td>
+        <td>{{familiar2.edad}}</td>
+        <td>{{familiar2.fechaDeNacimiento}}</td>
+    </tr>
+</table>
+</html>
